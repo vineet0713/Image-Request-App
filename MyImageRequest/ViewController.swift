@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let imageURL = URL(string: ImageURLs.FEDERER_SERVE_WITHOUT_HTTPS)
+        let imageURL = URL(string: ImageURLs.FEDERER_SERVE)
         
         // make a request (or task):
         let task = URLSession.shared.dataTask(with: imageURL!) { (data, response, error) in
